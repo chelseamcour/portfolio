@@ -1,0 +1,239 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: white;
+  border-bottom: 2px solid #fdd540;
+  overflow-x: hidden;
+  overflow-y:hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 55px;
+  font-family: 'Neuton', serif;
+  font-size: 16pt;
+  font-weight: 800;
+  z-index: 1;
+  vertical-align:top;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #404040;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #00B1D2FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #404040;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #00B1D2FF;
+  color: #fdd540;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #404040;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  float: left;
+}
+
+.home {
+  font-family: 'Neuton', serif;
+  text-align: center;
+  font-weight: 800;
+  z-index: 0;
+  
+}
+
+hr {
+    border-top: 2px solid #fdd540;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+
+.portfolio h3, .contact h3 {
+  color: #00B1D2FF;
+  font-size: 40pt;
+  font-family: 'Neuton', serif;
+  font-weight: 800;
+  padding: 10px;
+  text-align: center;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #404040;
+}
+
+.about h3 {
+  color: #00B1D2FF;
+  font-size: 40pt;
+  font-family: 'Neuton', serif;
+  font-weight: 800;
+  padding: 10px;
+  -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #404040;
+  margin-left: 350px;
+}
+
+
+
+/*.backImg {
+    background-image: url('background2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.about {
+  background-image: url('./assets/background.png');
+  background-position: fixed;
+  height: 250px;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.about p {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 375px;
+  margin-right: 5em;
+  width: 55em;
+  font-size: 12pt;
+  font-weight:600;
+  color: #404040;
+  display: block;
+  position: relative;
+}
+
+.about i {
+  color: #404040;
+  font-size: 30pt;
+  z-index: 1;
+}
+
+.about i:hover{
+  color: #00B1D2FF;
+}
+
+.icons {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  font-weight:600;
+  color: #404040;
+}
+
+span {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  font-weight:600;
+  color: #404040;
+}
+
+
+.card-deck {
+    position: absolute;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-body {
+  padding-bottom:0px;
+  text-align:center;
+}
+
+.card:hover {
+  background-color: #00B1D2FF;
+  color: white;
+  text-decoration:none;
+}
+
+.card a {
+  text-decoration:none;
+
+}
+
+.portfolio h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  font-weight:600;
+  color: #404040;
+}
+
+.contact {
+  text-align: center;
+  background-image: url('./Assets/envelope.jpeg');
+  background-size:500px 342px;
+  background-position: center;
+  z-index: 0;
+}
+
+form {
+  align-items:center;
+  font-size: 10pt;
+}
+
+#submitBtn {
+  width:200px;
+  font-family: 'Neuton', serif;
+  color: #00B1D2FF;
+  font-size: 30pt;
+  font-weight: 800;
+  background: none;
+  border: none;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: #00B1D2FF;
+  cursor: pointer;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: #404040;
+}
+
+#submitBtn:hover {
+  color: white;
+  text-decoration-color: white;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #404040;
+}
+
+form input, textarea {
+  width: 500px;
+  border: 1px solid #00B1D2FF;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: .25rem;
+}
+
+.footer {
+  text-align: center;
+  color: #00B1D2FF;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 0;
+}
+
+::placeholder {
+  color: #404040;
+  font-family: 'Open Sans', sans-serif;
+  font-weight:600;
+}
+
+.footer a {
+  color: #00B1D2FF;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  z-index: 0;
+}
+
+
+
+
+
