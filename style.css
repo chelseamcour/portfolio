@@ -91,7 +91,7 @@ img {
 }*/
 
 .about {
-  background-image: url('./assets/background.jpeg');
+  background-image: url('./Assets/background.jpeg');
   background-position: fixed;
   height: 250px;
   background-size: cover;
