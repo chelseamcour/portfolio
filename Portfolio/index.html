@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@400;600;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8dcab4b4a1.js" crossorigin="anonymous"></script>
+    <body>
+
+    <!-- Navbar -->
+    <header id="main-header">
+    <nav class="topnav">
+        <a href="#contact" data-target="selector">Contact</a>
+        <a href="#portfolio" data-target="selector">Portfolio</a>
+        <a href="#about" data-target="selector">About</a>
+        <a class="active" href="#home" data-target="selector">Home</a>
+    </nav><br>
+  </header>
+    <!-- Header -->
+    <div class="home"><a name ="home"></a><br><br><br><br>
+        <h1 style=font-size:100pt;color:#fdd540;-webkit-text-stroke-width:0.3px;-webkit-text-stroke-color:#2f4f4f;><b>Chelsea Courtney</b></h1>
+        <h2 style=font-size:50pt;color:#00B1D2FF;-webkit-text-stroke-width:0.3px;-webkit-text-stroke-color:#2f4f4f;><b>Web Developer | Salesforce Admin</b></h2>
+    </div>
+    <br><br><br>
+    <a name ="about"></a>
+    
+    <br><br>
+    
+    <!-- About Content -->
+    
+    
+    <div class="about"><br>
+      <h3>About Me</h3>
+      <div class="row">
+          <p>Hi! My name is Chelsea Courtney, and I am an aspiring web developer and Salesforce Admin.
+          I recently completed the Web Development bootcamp at Eleven Fifty Academy and am now enrolled in their UX/UI Design program.
+          In addition, I am finishing up my time in the Salesforce Pathfinder Training Program and working towards becoming a certified Salesforce Administrator.
+          I look forward to launching the next phase of my career in the tech world!
+          <br><br>
+        </p>
+      </div>
+      <div class="icons">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col">
+              <a href="./Assets/Resume - Chelsea Courtney.pdf" target="blank"><i class="fas fa-file-alt">
+              <span>Resume</span></i></a>
+            </div>
+            <div class="col">
+              <a href="https://www.linkedin.com/in/chelseamcour/" target="blank"><i class="fab fa-linkedin">
+                <span>LinkedIn</span></i></a>
+            </div>
+            <div class="col">
+              <a href="https://github.com/chelseamcour" target="blank"><i class="fab fa-github-square">
+                <span>Github</span></i></a>
+            </div>
+          </div>
+          <div class="col">
+            <a href="https://trailblazer.me/id/chelseamcour" target="blank"><i class="fab fa-salesforce"></i>
+              <span>Salesforce</span></i></a>
+          </div>
+        </div>
+        </div><br>
+    </div>
+  
+
+    <a name ="portfolio"></a>
+    <!-- My Work -->
+    <div class="portfolio"><br><br>
+      <h3>Portfolio</h3>
+    <div class="card-deck">
+        <div class="card"><a href="https://codepen.io/chelseamcour/pen/zYGjyvX" target="blank">
+          <img src="./Assets/cssCreature.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CSS Creature</h5>
+          </div></a>
+        </div>
+        <div class="card"><a href="https://sports-teams-api.web.app/" target="blank">
+          <img src="./Assets/apiChallenge.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sports Team Search</h5>
+          </div></a>
+        </div>
+        <div class="card"><a href="https://cmc-blue-lootlog-client.herokuapp.com/" target="blank">
+          <img src="./Assets/logYourLoot.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Log Your Loot</h5>
+          </div></a>
+        </div>
+    </div>
+  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    
+    <!-- Contact Form -->
+    <div class="contact"> <a name ="contact">
+    <h3>Get In Touch</h3>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/YOUR_EMAIL_HERE" method="post"><br>
+        <fieldset id="fs-frm-inputs">
+          <input type="text" name="name" id="full-name" placeholder="Full Name" required=""><br>
+          <input type="email" name="_replyto" id="email-address" placeholder="Email Address" required=""><br>
+          <input type="text" name="subject" id="subject" placeholder="Subject" required=""><br>
+          <br><textarea rows="3" name="message" id="message" placeholder="Your message." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission" >
+        </fieldset>
+        <input type="submit" id="submitBtn" value="Send"><br><br>
+      </form>
+</div>
+
+<br>
+<hr>
+
+    <!-- Footer -->
+<div class="footer">
+    <h2 style="font-size:12pt;font-weight:400;">© Chelsea Courtney 2020</h2>
+    <h1 style="font-size:10pt;"><a href="#home">Home</a> • <a href="#about">About</a> • <a href="#portfolio">Portfolio</a> • <a href="#contact">Contact</a></h1>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   
+    <script src="main.js"></script>
+</body>
+</html>
